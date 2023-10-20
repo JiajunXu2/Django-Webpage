@@ -1,0 +1,18 @@
+nav {
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 39, 39);
+}
+
+.menu_item a {
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 20px;
+    color: rgb(233, 162, 8);
+}
+
+.menu_item a:hover{
+    color: rgb(255, 255, 255);
+}
