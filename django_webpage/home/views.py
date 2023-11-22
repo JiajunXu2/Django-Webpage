@@ -4,7 +4,7 @@ from django.shortcuts import render, HttpResponse
 # Create your views here.
 def home(request):
     context = {}
-    return render(request, "E:/Projects-Python/Django-Webpage/django_webpage/home/templates/test.html", context)
+    return render(request, "E:/Projects-Python/Django-Webpage/django_webpage/home/templates/home.html", context)
 
 def cart(request):
     context = {}
